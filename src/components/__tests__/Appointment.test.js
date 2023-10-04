@@ -12,17 +12,21 @@ import { render } from "@testing-library/react";
 /*
   We import the component that we are testing
 */
-import Application from "components/Application";
+import Appointment from "components/Appointment/index"
 
 /*
   A test that renders a React Component
 */
 describe("Appointment", () => {
   it("renders without crashing", () => {
-    render(<Application/>);
+    render(<Appointment/>);
   });
 
   xit("does something", () => {
-    
+    //
+  });
+
+  test.skip("does something else it is supposed to do", () => {
+    //
   })
 })
